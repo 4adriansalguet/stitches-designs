@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @font-face {
   font-family: "Century";
-  src: url("../fonts/Century.ttf") format("truetype");
+  src: url("/fonts/Century.woff2") format("woff2"), url("/fonts/Century.woff") format("woff"), url("/fonts/Century.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -248,6 +248,9 @@ a {
     top: 20px;
     left: 20px;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  #banner .logo img {
+    width: 135px;
   }
   #banner .menu.show .logo {
     transform: translateX(0);

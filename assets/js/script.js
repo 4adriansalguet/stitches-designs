@@ -112,7 +112,7 @@
             menu.classList.toggle("show");
             logo.classList.toggle("move-left"); // Toggle class to move logo
             toggleIcon.src = menu.classList.contains("show") ?
-                "./public/images/close.png" :
-                "./public/images/toggle.png";
+                "./assets/images/close.png" :
+                "./assets/images/toggle.png";
         });
     });

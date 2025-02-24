@@ -291,6 +291,9 @@ a {
       top: 20px;
       left: 20px;
       transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      img {
+        width: 135px;
+      }
     }
 
     .menu.show .logo {
