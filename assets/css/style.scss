@@ -247,6 +247,16 @@ a {
   .btn-group a {
     font-size: clamp(14px, 4vw, 18px);
   }
+
+  @media screen and (max-width: 499px) {
+    .logo.move-left {
+      transform: translateX(-24%); /* Adjust the value as needed */
+    }
+    .logo img {
+      height: 100px;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 50px;
