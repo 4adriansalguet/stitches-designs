@@ -28,6 +28,7 @@
   max-width: 87.5rem;
   width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .row {
@@ -252,7 +253,7 @@ a {
     .logo.move-left {
       transform: translateX(-24%); /* Adjust the value as needed */
     }
-    img {
+    .logo img {
       height: 100px;
     }
   }
