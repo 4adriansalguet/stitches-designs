@@ -116,3 +116,9 @@
                 "./assets/images/toggle.png";
         });
     });
+
+    // Popup Birthday
+
+    setTimeout(() => {
+            document.getElementById('birthdayPopup').classList.add('show');
+        }, 1000);
